@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rl:hover .card {
+	display: block;
+}
+.rl2:hover .card {
+	display: block;
+}
+.rl:hover {
+	border-radius: 12px;
+	background: linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0) 15.62%,
+			rgba(32, 81, 137, 0.9) 100%
+		),
+		url('../img/pc1.jpg');
+}
+.rl2:hover {
+	border-radius: 12px;
+	background: linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0) 15.62%,
+			rgba(32, 81, 137, 0.9) 100%
+		),
+		url('../img/pc2.png');
+}
+
+.rl3:hover .card {
+	display: block;
+}
+.rl3:hover {
+	border-radius: 12px;
+	background: linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0) 15.62%,
+			rgba(32, 81, 137, 0.9) 100%
+		),
+		url('../img/pc3.png');
+}
+html, body {
+    overflow-x: hidden;
+}
+
